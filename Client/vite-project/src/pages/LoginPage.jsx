@@ -117,7 +117,15 @@ const LoginPage = () => {
           </Form.Item>
 
           <Form.Item>
-            <Button htmlType="submit" block>
+            <Button
+              style={{
+                backgroundColor: "#ffdd00",
+                border: "none",
+                color: "#fff",
+              }}
+              htmlType="submit"
+              block
+            >
               Login
             </Button>
           </Form.Item>
