@@ -66,14 +66,7 @@ res.json({success:false, message:err.message});
     return res.json({success:false, message:err.message})
   }
 }
-const homepage=async (req,res)=>{
-  console.log("Home Page");
 
-}
-const dashboard=async (req,res)=>{
-  console.log("Dashboard");
-
-}
 
  const logout=async(req,res)=>{
   try{
@@ -91,4 +84,4 @@ const dashboard=async (req,res)=>{
   }
 }
 
-export { login, logout, register, homepage, dashboard};
+export { login, logout, register};
