@@ -5,30 +5,31 @@ body{
   margin:0;
   padding: 0;
   font-family: "Outfit", sans-serif;
-  background-image: url('/images/background.jpg');
-  background-size: contain; 
+  background-color: black;
+  
   
 
 }
 
 
-.login-container{
+.login-container, .signup-container{
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   padding:20px;
+ 
   
 
 }
-.login-box {
+.login-box, .signup-box {
   background: #fff;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
-  background-color: rgba(255,255,255,0.33);
+  background-color: white;
 
 }
 .register-link {
@@ -36,13 +37,19 @@ body{
   margin-top: 15px;
 }
 .register-link a {
-  color: #ffdd00;
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
 .register-link a:hover {
   text-decoration: underline;
 }
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+
 
 
 

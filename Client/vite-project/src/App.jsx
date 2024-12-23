@@ -1,7 +1,6 @@
 import LoginPage from "./pages/LoginPage.jsx";
 import Signup from "./pages/Signup.jsx";
 import "./loginPage.css";
-import "./signup.css";
 
 import { Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";

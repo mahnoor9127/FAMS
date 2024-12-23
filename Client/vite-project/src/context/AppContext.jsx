@@ -6,6 +6,7 @@ export const AppContextProvider = (props) => {
   const backendUrl = import.meta.env.VITE_BACKEND_URL;
   const [isLoggedin, setIsLoggedin] = useState(false);
   const [userData, setUserData] = useState(false);
+  const [selectedPage, setSelectedPage] = useState("Products");
 
   const value = {
     backendUrl,
@@ -13,6 +14,9 @@ export const AppContextProvider = (props) => {
     setIsLoggedin,
     userData,
     setUserData,
+    selectedPage,
+    setSelectedPage,
+    name,
   };
   return (
     <AppContext.Provider value={value}>{props.children}</AppContext.Provider>
